@@ -1,4 +1,4 @@
-name := "play-bootstrap-template"
+name := "digits"
 
 version := "1.0-SNAPSHOT"
 

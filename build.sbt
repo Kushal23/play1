@@ -1,4 +1,4 @@
-name := "digits123"
+name := "digits1234"
 
 version := "1.0-SNAPSHOT"
 

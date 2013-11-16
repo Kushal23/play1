@@ -9,6 +9,8 @@ Digits
 
 ![screenshot](https://raw.github.com/kushal23/play1/Attempt-1-1-1/doc/digits3.png)
 
+![screenshot](https://raw.github.com/kushal23/play1/Attempt-1-1-1-1/doc/digits4.png)
+
 
 Overview
 --------

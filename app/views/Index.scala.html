@@ -7,7 +7,11 @@
     <tr><th>First </th><th>Last </th><th>Phone </th></tr>
     @for(contact <- contacts){
     
-    <tr><td>@contact.getFirstName()</td><td>@contact.getLastName()</td><td><a href="tel:+18002345678">@contact.getTelephone()</a></td></tr>
+    <tr><td>@contact.getFirstName()</td>
+    <td>@contact.getLastName()</td>
+    <td><a href="tel:+18002345678">@contact.getTelephone()</a></td>
+    <td><a href="@routes.Application.newContact(contact.getId())">Edit</a></td>
+    </tr>
    }
     
    

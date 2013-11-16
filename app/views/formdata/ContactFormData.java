@@ -3,6 +3,7 @@ package views.formdata;
 import java.util.ArrayList;
 import java.util.List;
 
+import models.Contact;
 import play.data.validation.ValidationError;
 
 public class ContactFormData {
@@ -12,6 +13,31 @@ public class ContactFormData {
 	public String lastName = "";
 
 	public String telephone = "";
+
+	public long id;
+	
+	
+	
+	
+	public ContactFormData() {
+		super();
+		 
+	}
+	
+	public ContactFormData(Contact contact) {
+		
+		
+		super();
+		this.id = contact.getId();
+		this.firstName = contact.getFirstName();
+		this.lastName = contact.getLastName();
+		this.telephone = contact.getTelephone();
+		
+		 
+	}
+
+
+
 
 	public List<ValidationError> validate() {
 

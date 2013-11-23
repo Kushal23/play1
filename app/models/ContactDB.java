@@ -21,10 +21,10 @@ public class ContactDB {
 		if (dataForm.id == 0) {
 			long id = contacts.size() + 1;
 			contact = new Contact(id, dataForm.firstName, dataForm.lastName,
-					dataForm.telephone);
+					dataForm.telephone,dataForm.telephoneType);
 		} else {
 			contact = new Contact(dataForm.id, dataForm.firstName,
-					dataForm.lastName, dataForm.telephone);
+					dataForm.lastName, dataForm.telephone,dataForm.telephoneType);
 		}
 
 		contacts.put(contact.getId(), contact);

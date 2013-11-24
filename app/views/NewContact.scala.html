@@ -17,9 +17,9 @@
 	
 	@text(contactForm("lastName"),"Last","Last Name")
 	
-	@text(contactForm("telephone"),"Telephone","xxx-xxx-xxxx")
+	
 	 
-	@bootstrap3.select(contactForm("telephoneType"),"Telephone Type",telephoneTypeMap,false,"")
+	@bootstrap3.telephone(contactForm("telephone"),contactForm("telephoneType"),"Telephone Type",telephoneTypeMap,false,"xxx-xxx-xxxx","")
 	 
 	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
